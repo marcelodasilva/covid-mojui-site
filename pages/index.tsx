@@ -5,7 +5,7 @@ const Home: React.FC = () => {
   return (
     <div>
       <Head>
-        <title>Create Next App</title>
+        <title>Home | Combate COVID-19 Mojuí dos Campos</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
