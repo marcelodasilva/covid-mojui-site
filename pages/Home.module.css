@@ -1,0 +1,117 @@
+.container {
+  height: 100%;
+  flex:1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(#000b,#000b),linear-gradient(to top,#fbe93d25,#254fa975), url('/bg.jpg')  center;
+  background-size: cover;
+}
+
+.content {
+  width: 100%;
+  max-width: 768px;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+}
+
+.content > h1 {
+  color:#fff;
+  text-align: center;
+}
+.content > p {
+  
+  margin-top: 20px;
+  color:#fff9;
+  
+}
+.content > p > span {
+  
+  color:#fff;
+  
+}
+
+.card__list {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px #000;
+  background-color: #fefefe40;
+  height: 100%;
+
+}
+
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  width: auto;
+  height: auto;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+
+  margin: 0 5px;
+}
+
+.card h1 {
+  font-size: 20px;
+  text-align: center;
+}
+.card h4 {
+  font-size: 30px;
+}
+
+.monitorados {
+  background-color: darkseagreen;
+  color: white;
+}
+
+.confirmados {
+  background-color: darkorange;
+  color: white;
+
+}
+.obitos {
+  background-color: red;
+  color: white;
+}
+
+.analise { 
+  background-color: darkolivegreen;
+  color: white;
+
+}
+
+.descartados {
+  background-color: green;
+  color: white;
+
+}
+
+@media(max-width:768px) {
+  .card__list {
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .card {
+    width: 80%;
+    padding: 10px 0px;
+    margin: 10px 0;
+  }
+  .card h1 {
+    font-size: 20px;
+  }
+  .card h4 {
+    font-size: 35px;
+  }
+}

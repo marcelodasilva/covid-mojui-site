@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+ background: #fff;
+ color: #000000;
+ -webkit-font-smoothing: antialiased;
+}
+
+body, input, button {
+ font-size: 16px;
+ font-family: sans-serif;
+}
+
+button {
+ cursor: pointer;
+}
+
+html, body,#__next {
+  height: 100vh;
+}
